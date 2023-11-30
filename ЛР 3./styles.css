@@ -1,0 +1,91 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+  background-color: #f5f5f5;
+  font-family: 'Arial', sans-serif; /* Встановіть шрифт за власним смаком */
+  color: #333; /* Колір тексту */
+}
+
+/* Header styles */
+header {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #2c3e50;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #34495e;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+/* Menu section styles */
+#menu {
+  border: 2px solid #e74c3c; /* Колір рамки для розділу "Меню" */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.menu-item {
+  margin-bottom: 20px;
+}
+
+/* Contacts section styles */
+#contacts {
+  border: 2px solid #3498db; /* Колір рамки для розділу "Контакти" */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Location section styles */
+#location {
+  border: 2px solid #2ecc71; /* Колір рамки для розділу "Місцезнаходження" */
+  padding: 20px;
+}
+
+/* About section styles */
+#about {
+  border: 2px solid #f39c12; /* Колір рамки для розділу "Про нас" */
+  padding: 20px;
+}

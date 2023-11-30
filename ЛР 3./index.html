@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Смаколик - ваше кафе</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Ласкаво просимо в кафе "Смаколик"</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="javascript:void(0);" onclick="toggleSection('menu')" class="active">Меню</a></li>
+      <li><a href="javascript:void(0);" onclick="toggleSection('contacts')">Контакти</a></li>
+      <li><a href="javascript:void(0);" onclick="toggleSection('location')">Місцезнаходження</a></li>
+    </ul>
+  </nav>
+
+  <section id="menu">
+    <h2>Меню</h2>
+
+    <div class="menu-item">
+      <img src="https://cdn.meta.ua/meta_news/94/01002bki-9424_1280x720.jpeg" alt="Бургер" width="400" height="400">
+      <p>Бургер - 135гривень</p>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://www.vsegdavkusno.ru/assets/images/recipes/1450/pasta-karbonara-tradicionnyy-recept2.jpg" alt="Карбонара" width="400" height="400">
+      <p>Карбонара - 230гривень</p>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://cdn.lifehacker.ru/wp-content/uploads/2021/10/2_1634551409-scaled-e1634551464449-1280x640.jpg" alt="Салат Цезарь" width="400" height="400">
+      <p>Салат Цезарь - 173гривені</p>
+    </div>
+
+  </section>
+
+  <section id="contacts">
+    <h2>Контакти</h2>
+    <p>Номери телефону:</p>
+    <ul>
+      <li>+380730373816</li>
+      <li>+380631114051</li>
+      <li>+380973544001</li>
+    </ul>
+    <p>Email: <a href="mailto:smakolik@gmail.com">smakolik@gmail.com</a></p>
+  </section>
+
+  <section id="location">
+    <h2>Місцезнаходження</h2>
+    <p>Адреса: м. Київ, вул. Парк Позняки</p>
+    <div id="map"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Смаколик. Усі права захищено.</p>
+  </footer>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=ВАШ_API_КЛЮЧ&callback=initMap" async defer></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
